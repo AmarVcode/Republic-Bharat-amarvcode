@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+    padding: 1rem;
+}
+
+main>h2{
+color: red;
+}
+
+
+.box{
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.box > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0.6rem;
+}
+
+
+.imgdiv{
+    background-color: black;
+    overflow: hidden;
+}
+
+.imgdiv img{
+    width:100%;
+    opacity: 50%;
+    transition: 500ms;
+}
+
+.imgdiv img:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.box h3{
+    padding: 1rem;
+    font-weight: 500;
+    text-align: center;
+}

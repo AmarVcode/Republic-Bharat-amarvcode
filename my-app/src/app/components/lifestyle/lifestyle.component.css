@@ -1,0 +1,97 @@
+main{
+    width: 100%;
+}
+
+.head{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 9vh;
+}
+
+.head>div:nth-child(1){
+    width: 4rem;
+}
+
+.head img{
+    width: 100%;
+}
+
+
+.head>div{
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+.head h2{
+  padding: 0.2rem 1rem;
+}
+
+
+
+.box1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1rem;
+    width: 100%;
+}
+
+.box1>div{
+    margin: 0.3rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+.imgdiv{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.imgdiv>img{
+    width: 100%;
+    opacity: 50%;
+    transition: 500ms;
+}
+
+.imgdiv>img:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.box1 h2{
+    font-size: 1rem;
+    padding: .5rem;
+    font-weight: 500;
+}
+
+.viewbtn{
+    width: 100%;
+    text-align: right;
+}
+
+.viewbtn>button{
+    border: 1px solid red;
+    padding: .8rem;
+    margin: 1rem;
+    font-size: 1rem;
+    color: red;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 900;
+    transition: 500ms;
+}
+.viewbtn>button:hover{
+    color: white;
+    background-color: red;
+}
+
+.sample{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+}

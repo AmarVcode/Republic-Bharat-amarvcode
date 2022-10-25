@@ -156,6 +156,7 @@ nav{
     top: 50vh;
     font-weight: 500;
     transition: 500ms;
+    z-index: 1000;
  }
 
  .fixbtn:hover{

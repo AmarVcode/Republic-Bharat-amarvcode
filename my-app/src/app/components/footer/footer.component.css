@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+h2{
+    color: red;
+}
+
+p:hover{
+    color: blue;
+}
