@@ -1,4 +1,103 @@
 #mainframe{
-    width: 100vw;
+    width: 100%;
     min-height: 70vh;
+    box-sizing: border-box;
+}
+
+main{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+.box1{
+    margin: 2rem;
+}
+
+.box1>div{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.imgdiv{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+}
+
+.imgdiv img{
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    transition: 500ms;
+    opacity: 50%;
+}
+
+.imgdiv img:hover{
+   transform: scale(1.2);
+   opacity: 100%;
+}
+
+
+.card h2{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card p{
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.box1>p{
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: right;
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+.box1>p:hover{
+    color: red;
+}
+
+.box1>h1{
+    font-size: 1.4rem;
+}
+
+.box2 h1{
+    font-size: 1.4rem;
+}
+
+.box2{
+    margin: 2rem;
+}
+
+.box2 > div{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+
+.last{
+    width: 100%;
+    padding: 1rem;
+}
+
+.last h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.last h2{
+    font-size: 1rem;
+    font-weight: 600;
 }

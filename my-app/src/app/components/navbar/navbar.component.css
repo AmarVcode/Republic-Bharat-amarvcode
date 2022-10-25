@@ -4,6 +4,7 @@ nav{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: fixed;
     background-color: white;
+    z-index: 1000;
 }
 
 .samplenav{
@@ -118,6 +119,8 @@ nav{
 
 .bottomnav{
     display: flex;
+   max-width: 1000px;
+   margin: auto;
 }
 
 .bottomnav a{
@@ -125,14 +128,15 @@ nav{
     font-size: 1rem;
     text-decoration: none;
     padding-bottom: 0.2rem;
-    padding-inline: 1rem;
     font-weight: 600;
     border: 5px solid transparent;
     transition: 500ms;
+    padding-inline: .6rem;
 }
 
 .bottomnav a:hover{
    border-bottom-color: red;
+   color: red;
 }
 
 .active{
